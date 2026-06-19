@@ -1,0 +1,26 @@
+{
+  "name": "cortex-plugin-music-composition",
+  "version": "1.0.0",
+  "description": "Music Composition & Audio Production — Suno/Udio/Mubert/MuseNet integration for generative music and audio processing",
+  "kind": "esm",
+  "entryPoint": "mod.ts",
+  "runtime": "deno",
+  "author": "CortexPrism",
+  "license": "MIT",
+  "repository": "https://github.com/CortexPrism/cortex-plugin-music-composition",
+  "homepage": "https://cortexprism.io/marketplace/plugins/music-composition",
+  "capabilities": ["tools", "network:fetch"],
+  "tools": [
+    {
+      "name": "music_generate",
+      "description": "Generate music from text description",
+      "params": []
+    },
+    { "name": "music_extend", "description": "Extend existing track", "params": [] },
+    { "name": "music_remix", "description": "Remix with different style or tempo", "params": [] },
+    { "name": "music_analyze", "description": "Analyze key, BPM, and structure", "params": [] }
+  ],
+  "dependencies": {},
+  "peerDependencies": { "cortex": ">=1.0.0" },
+  "aiDisclosure": { "tools": ["Kilo (DeepSeek) — batch scaffold"], "humanReview": true }
+}
