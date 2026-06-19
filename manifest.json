@@ -16,11 +16,26 @@
       "description": "Generate music from text description",
       "params": []
     },
-    { "name": "music_extend", "description": "Extend existing track", "params": [] },
-    { "name": "music_remix", "description": "Remix with different style or tempo", "params": [] },
-    { "name": "music_analyze", "description": "Analyze key, BPM, and structure", "params": [] }
+    {
+      "name": "music_extend",
+      "description": "Extend existing track",
+      "params": []
+    },
+    {
+      "name": "music_remix",
+      "description": "Remix with different style or tempo",
+      "params": []
+    },
+    {
+      "name": "music_analyze",
+      "description": "Analyze key, BPM, and structure",
+      "params": []
+    }
   ],
   "dependencies": {},
   "peerDependencies": { "cortex": ">=1.0.0" },
-  "aiDisclosure": { "tools": ["Kilo (DeepSeek) — batch scaffold"], "humanReview": true }
+  "aiDisclosure": {
+    "tools": ["Kilo (DeepSeek) — batch scaffold"],
+    "humanReview": true
+  }
 }
